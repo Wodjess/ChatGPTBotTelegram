@@ -1,9 +1,0 @@
-{
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:flower_forest": "2023-02-24 11:47:52 +0300"
-    },
-    "done": false
-  },
-  "DataVersion": 3120
-}
