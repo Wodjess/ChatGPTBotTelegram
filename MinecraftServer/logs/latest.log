@@ -1,0 +1,351 @@
+[11:44:36] [ServerMain/INFO]: Building unoptimized datafixer
+[11:44:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:44:38] [ServerMain/INFO]: Loaded 7 recipes
+[11:44:38] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[11:44:38] [Server thread/INFO]: Loading properties
+[11:44:38] [Server thread/INFO]: This server is running CraftBukkit version 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[11:44:39] [Server thread/INFO]: Debug logging is disabled
+[11:44:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:44:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:44:39] [Server thread/INFO]: Default game type: SURVIVAL
+[11:44:39] [Server thread/INFO]: Generating keypair
+[11:44:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:44:39] [Server thread/INFO]: Using default channel type
+[11:44:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:44:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:44:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:44:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:44:39] [Server thread/INFO]: Preparing level "world"
+[11:44:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:44:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:44:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:44:39] [Server thread/INFO]: Simulation Distance: 12
+[11:44:39] [Server thread/INFO]: View Distance: 12
+[11:44:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:44:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:44:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:44:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:44:39] [Server thread/INFO]: Mob Spawn Range: 6
+[11:44:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:44:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:44:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:44:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:44:39] [Server thread/INFO]: Max TNT Explosions: 100
+[11:44:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:44:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:44:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:44:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:44:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:44:39] [Server thread/INFO]: Simulation Distance: 12
+[11:44:39] [Server thread/INFO]: View Distance: 12
+[11:44:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:44:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:44:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:44:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:44:39] [Server thread/INFO]: Mob Spawn Range: 6
+[11:44:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:44:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:44:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:44:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:44:39] [Server thread/INFO]: Max TNT Explosions: 100
+[11:44:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:44:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:44:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:44:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:44:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:44:39] [Server thread/INFO]: Simulation Distance: 12
+[11:44:39] [Server thread/INFO]: View Distance: 12
+[11:44:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:44:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:44:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:44:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:44:39] [Server thread/INFO]: Mob Spawn Range: 6
+[11:44:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:44:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:44:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:44:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:44:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:44:39] [Server thread/INFO]: Max TNT Explosions: 100
+[11:44:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:44:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:44:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:44:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:44:41] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[11:44:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:44:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:44:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:44:42] [Worker-Main-9/INFO]: Preparing spawn area: 6%
+[11:44:42] [Server thread/INFO]: Time elapsed: 2856 ms
+[11:44:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:44:44] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[11:44:44] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:44:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:44:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:44:44] [Worker-Main-11/INFO]: Preparing spawn area: 62%
+[11:44:44] [Server thread/INFO]: Time elapsed: 2137 ms
+[11:44:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:44:45] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[11:44:45] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[11:44:45] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:44:46] [Server thread/INFO]: Time elapsed: 1481 ms
+[11:44:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:44:46] [Server thread/INFO]: Done (6.946s)! For help, type "help"
+[11:45:31] [Server thread/INFO]: Made Wodjess\ a server operator
+[11:45:46] [Server thread/INFO]: Made Wodjess a server operator
+[11:46:02] [Server thread/INFO]: Made Piskabobra_282 a server operator
+[11:46:40] [User Authenticator #1/INFO]: UUID of player Wodjess is 83aff8bf-0b2f-3165-8b34-41ca36268936
+[11:46:40] [Server thread/INFO]: Wodjess joined the game
+[11:46:40] [Server thread/INFO]: Wodjess[/127.0.0.1:61609] logged in with entity id 254 at ([world]-210.91686259979141, 53.0, 729.1743736929202)
+[11:47:51] [User Authenticator #2/INFO]: UUID of player Piskabobbra_282 is 10c6beb9-6cef-3714-8bed-00eb5918b6a4
+[11:47:51] [Server thread/INFO]: Piskabobbra_282 joined the game
+[11:47:51] [Server thread/INFO]: Piskabobbra_282[/192.168.0.122:61629] logged in with entity id 717 at ([world]-372.5, 73.0, 454.5)
+[11:48:50] [Server thread/INFO]: Piskabobbra_282 issued server command: /gamemode creative
+[11:49:09] [Server thread/INFO]: Piskabobbra_282 lost connection: Disconnected
+[11:49:09] [Server thread/INFO]: Piskabobbra_282 left the game
+[11:49:25] [Server thread/INFO]: Wodjess lost connection: Disconnected
+[11:49:25] [Server thread/INFO]: Wodjess left the game
+[11:49:45] [Server thread/INFO]: Nothing changed. The player already is an operator
+[11:50:47] [User Authenticator #3/INFO]: UUID of player Piskabobra_282 is 5be4ceee-6bd7-301f-a56c-f8e45d959c8d
+[11:50:47] [Server thread/INFO]: Piskabobra_282 joined the game
+[11:50:47] [Server thread/INFO]: Piskabobra_282[/192.168.0.122:61695] logged in with entity id 1297 at ([world]-396.0146722272327, 64.79673560066871, 391.0037769112802)
+[11:51:00] [Server thread/INFO]: Piskabobra_282 issued server command: /time set day
+[11:51:00] [Server thread/INFO]: [Piskabobra_282: Set the time to 1000]
+[11:51:01] [User Authenticator #4/INFO]: UUID of player Wodjess is 83aff8bf-0b2f-3165-8b34-41ca36268936
+[11:51:01] [Server thread/INFO]: Wodjess joined the game
+[11:51:01] [Server thread/INFO]: Wodjess[/127.0.0.1:61707] logged in with entity id 1427 at ([world]-213.87493995008828, 96.0, 712.8430562214086)
+[11:56:57] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[11:56:57] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[11:56:57] [Server thread/WARN]: Wodjess moved too quickly! -293.05840368700115,23.975575911786315,-213.23939481390738
+[11:58:07] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess -322.582 71 592
+[11:58:07] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to -322.582000, 71.000000, 592.500000]
+[11:58:07] [Server thread/WARN]: Wodjess moved too quickly! 26.34394272734926,49.98440977667772,138.18920281577277
+[11:58:45] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[11:58:45] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[12:01:43] [Server thread/INFO]: Wodjess has made the advancement [Sweet Dreams]
+[12:03:42] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[12:03:42] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[12:03:42] [Server thread/WARN]: Wodjess moved too quickly! 28.97511683855805,3.0,-80.27492050791358
+[12:05:24] [Server thread/INFO]: Wodjess lost connection: Disconnected
+[12:05:24] [Server thread/INFO]: Wodjess left the game
+[12:09:53] [User Authenticator #5/INFO]: UUID of player Wodjess is 83aff8bf-0b2f-3165-8b34-41ca36268936
+[12:09:53] [Server thread/INFO]: Wodjess joined the game
+[12:09:53] [Server thread/INFO]: Wodjess[/192.168.0.122:61743] logged in with entity id 5815 at ([world]-405.63507170125024, 63.0, 385.6109472323261)
+[12:11:42] [Server thread/INFO]: Piskabobra_282 was slain by Enderman
+[12:14:03] [Server thread/INFO]: Wodjess has made the advancement [Isn't It Iron Pick]
+[12:20:34] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[12:20:34] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[12:20:34] [Server thread/WARN]: Wodjess moved too quickly! -41.73690500132835,-6.0,-66.88311257049355
+[12:25:33] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[12:25:33] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[12:26:31] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[12:26:31] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[12:31:54] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[12:31:54] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[12:32:12] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[12:32:12] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[12:34:01] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[12:34:01] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[12:54:32] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[12:54:32] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[13:10:34] [Server thread/INFO]: Piskabobra_282 issued server command: /weather clear
+[13:10:34] [Server thread/INFO]: [Piskabobra_282: Set the weather to clear]
+[13:11:43] [Server thread/INFO]: Piskabobra_282 issued server command: /difficulty normal
+[13:11:43] [Server thread/INFO]: [Piskabobra_282: The difficulty has been set to Normal]
+[13:16:55] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[13:16:55] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[13:16:55] [Server thread/WARN]: Wodjess moved too quickly! 7.589395373230047,11.0,-17.105747154959715
+[13:17:18] [Server thread/INFO]: Piskabobra_282 has made the advancement [A Seedy Place]
+[13:21:37] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode
+[13:21:45] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[13:21:45] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[13:24:22] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[13:24:22] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[13:32:48] [Server thread/INFO]: Piskabobra_282 issued server command: /give Piskabobra_282 dirt 64
+[13:32:48] [Server thread/INFO]: [Piskabobra_282: Gave 64 [Dirt] to Piskabobra_282]
+[13:36:43] [Server thread/INFO]: Wodjess lost connection: Disconnected
+[13:36:43] [Server thread/INFO]: Wodjess left the game
+[13:37:56] [User Authenticator #6/INFO]: UUID of player Wodjess is 83aff8bf-0b2f-3165-8b34-41ca36268936
+[13:37:56] [Server thread/INFO]: Wodjess joined the game
+[13:37:56] [Server thread/INFO]: Wodjess[/192.168.0.122:61902] logged in with entity id 23603 at ([world]-410.30015443403073, 54.0, 390.6400806533776)
+[13:41:25] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[13:41:25] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[13:41:25] [Server thread/WARN]: Wodjess moved too quickly! 98.84147884471093,0.593208679714671,-143.68409793589717
+[13:43:10] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[13:43:10] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[13:43:38] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative Wodjess
+[13:43:38] [Server thread/INFO]: [Piskabobra_282: Set Wodjess's game mode to Creative Mode]
+[13:55:38] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival Wodjess
+[13:55:38] [Server thread/INFO]: [Piskabobra_282: Set Wodjess's game mode to Survival Mode]
+[13:55:54] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[13:55:54] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[13:59:36] [Server thread/INFO]: Piskabobra_282 has made the advancement [Fishy Business]
+[14:07:23] [Server thread/INFO]: Piskabobra_282 has made the advancement [Voluntary Exile]
+[14:08:09] [Server thread/INFO]: Piskabobra_282 issued server command: /time set day
+[14:08:09] [Server thread/INFO]: [Piskabobra_282: Set the time to 1000]
+[14:11:08] [Server thread/INFO]: Piskabobra_282 fell from a high place
+[14:11:26] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:11:26] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:13:32] [Server thread/INFO]: Piskabobra_282 was shot by Skeleton
+[14:13:46] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:13:46] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:14:11] [Server thread/INFO]: Piskabobra_282 issued server command: /give @a minecraft:bread 12
+[14:14:11] [Server thread/INFO]: [Piskabobra_282: Gave 12 [Bread] to 2]
+[14:17:10] [Server thread/INFO]: Piskabobra_282 has made the advancement [Acquire Hardware]
+[14:17:25] [Server thread/INFO]: Piskabobra_282 has made the advancement [Isn't It Iron Pick]
+[14:18:09] [Server thread/INFO]: Wodjess was obliterated by a sonically-charged shriek
+[14:18:25] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Wodjess Piskabobra_282
+[14:18:25] [Server thread/INFO]: [Piskabobra_282: Teleported Wodjess to Piskabobra_282]
+[14:18:25] [Server thread/WARN]: Wodjess moved too quickly! 62.48659005523302,-107.5625,360.270552770952
+[14:18:55] [Server thread/INFO]: Piskabobra_282 has made the advancement [Suit Up]
+[14:19:12] [Server thread/INFO]: Wodjess has made the advancement [Suit Up]
+[14:19:34] [Server thread/INFO]: Piskabobra_282 was slain by Warden
+[14:19:53] [Server thread/INFO]: Piskabobra_282 issued server command: /difficulty peaceful
+[14:19:53] [Server thread/INFO]: [Piskabobra_282: The difficulty has been set to Peaceful]
+[14:20:15] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:20:15] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:24:06] [Server thread/INFO]: Piskabobra_282 has made the advancement [Diamonds!]
+[14:31:17] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:31:17] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:31:17] [Server thread/WARN]: Piskabobra_282 moved too quickly! 59.61068839494931,6.921599998474121,-56.303772497143996
+[14:31:27] [Server thread/INFO]: Piskabobra_282 issued server command: /difficulty
+[14:31:39] [Server thread/INFO]: Piskabobra_282 issued server command: /difficulty
+[14:31:47] [Server thread/INFO]: Piskabobra_282 issued server command: /difficulty normal
+[14:31:47] [Server thread/INFO]: [Piskabobra_282: The difficulty has been set to Normal]
+[14:33:37] [Server thread/INFO]: Piskabobra_282 was blown up by Creeper
+[14:33:54] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:33:54] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:33:54] [Server thread/WARN]: Piskabobra_282 moved too quickly! 1.800000011920929,-49.5625,338.19999998807907
+[14:37:08] [Server thread/INFO]: Wodjess was slain by Zombie
+[14:37:51] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:37:51] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:41:10] [Server thread/INFO]: Piskabobra_282 has made the advancement [The Parrots and the Bats]
+[14:42:22] [Server thread/INFO]: Wodjess was blown up by Creeper
+[14:42:22] [Server thread/INFO]: Piskabobra_282 was blown up by Creeper
+[14:43:57] [Server thread/INFO]: Piskabobra_282 fell from a high place
+[14:44:15] [Server thread/INFO]: Wodjess fell from a high place
+[14:44:17] [Server thread/INFO]: Piskabobra_282 fell from a high place
+[14:44:26] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[14:44:26] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[14:44:34] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative Wodjess'
+[14:44:48] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative Wodjess
+[14:44:48] [Server thread/INFO]: [Piskabobra_282: Set Wodjess's game mode to Creative Mode]
+[14:46:25] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[14:46:25] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[14:46:42] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[14:46:42] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[14:46:42] [Server thread/WARN]: Piskabobra_282 moved too quickly! -57.84374379195265,104.15507581611014,-43.47742589826345
+[14:47:04] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival Wodjess
+[14:47:04] [Server thread/INFO]: [Piskabobra_282: Set Wodjess's game mode to Survival Mode]
+[14:56:14] [Server thread/INFO]: Piskabobra_282 issued server command: /fill
+[14:56:21] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[14:56:21] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[14:56:41] [Server thread/INFO]: Piskabobra_282 issued server command: /fill -402 57 404 -416 52 416 air
+[14:56:41] [Server thread/INFO]: [Piskabobra_282: Successfully filled 901 blocks]
+[14:56:53] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[14:56:53] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[15:01:37] [Server thread/INFO]: Piskabobra_282 issued server command: /give Piskabobra_282 minecraft:bread 24
+[15:01:37] [Server thread/INFO]: [Piskabobra_282: Gave 24 [Bread] to Piskabobra_282]
+[15:02:28] [Server thread/INFO]: Piskabobra_282 issued server command: /time set day
+[15:02:28] [Server thread/INFO]: [Piskabobra_282: Set the time to 1000]
+[15:03:25] [Server thread/INFO]: Piskabobra_282 issued server command: /locate structure minecraft:village_desert
+[15:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 48626ms or 972 ticks behind
+[15:04:14] [Server thread/INFO]: Piskabobra_282 lost connection: Disconnected
+[15:04:14] [Server thread/INFO]: Piskabobra_282 left the game
+[15:04:14] [Server thread/INFO]: Wodjess lost connection: Disconnected
+[15:04:14] [Server thread/INFO]: Wodjess left the game
+[15:04:14] [Server thread/INFO]: Piskabobra_282 issued server command: /locate structure village
+[15:04:16] [User Authenticator #7/INFO]: UUID of player Piskabobra_282 is 5be4ceee-6bd7-301f-a56c-f8e45d959c8d
+[15:04:16] [Server thread/INFO]: Piskabobra_282 joined the game
+[15:04:16] [Server thread/INFO]: Piskabobra_282[/127.0.0.1:62015] logged in with entity id 39697 at ([world]-537.1579231081049, 72.0, 819.7123575819667)
+[15:04:31] [User Authenticator #8/INFO]: UUID of player Wodjess is 83aff8bf-0b2f-3165-8b34-41ca36268936
+[15:04:31] [Server thread/INFO]: Wodjess joined the game
+[15:04:31] [Server thread/INFO]: Wodjess[/127.0.0.1:62028] logged in with entity id 39938 at ([world]-402.2207516054644, 53.0, 415.0010957761366)
+[15:04:50] [Server thread/INFO]: Piskabobra_282 issued server command: /locate structure minecraft:village_desert
+[15:04:54] [Server thread/INFO]: Piskabobra_282 issued server command: /tp @s 400 ~ -2912
+[15:04:56] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 400.500000, 72.000000, -2911.500000]
+[15:05:03] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 400.30 73.62 -2911.5\
+[15:05:03] [Server thread/INFO]: Piskabobra_282 suffocated in a wall
+[15:05:50] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 400 70 -2912
+[15:05:50] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 400.500000, 70.000000, -2911.500000]
+[15:06:02] [Server thread/INFO]: Piskabobra_282 suffocated in a wall
+[15:06:21] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 400 84 -2912
+[15:06:21] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 400.500000, 84.000000, -2911.500000]
+[15:08:19] [Server thread/INFO]: Piskabobra_282 issued server command: /locate structure minecraft:desert_pyramid
+[15:10:22] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 528 80 -2912
+[15:10:22] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 528.500000, 80.000000, -2911.500000]
+[15:10:22] [Server thread/WARN]: Piskabobra_282 moved too quickly! 1.226535716807689,-45.0,23.78642943781233
+[15:10:54] [Server thread/INFO]: Piskabobra_282 suffocated in a wall
+[15:11:16] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 528 100 -2912
+[15:11:16] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 528.500000, 100.000000, -2911.500000]
+[15:12:11] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode creative
+[15:12:11] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Creative Mode]
+[15:12:24] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 528 80 2912
+[15:12:25] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 528.500000, 80.000000, 2912.500000]
+[15:12:42] [Server thread/INFO]: Piskabobra_282 issued server command: /tp 528 80 -2912
+[15:12:42] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to 528.500000, 80.000000, -2911.500000]
+[15:13:14] [Server thread/INFO]: Piskabobra_282 issued server command: /gamemode survival
+[15:13:14] [Server thread/INFO]: [Piskabobra_282: Set own game mode to Survival Mode]
+[15:13:20] [Server thread/INFO]: Piskabobra_282 issued server command: /time set day
+[15:13:20] [Server thread/INFO]: [Piskabobra_282: Set the time to 1000]
+[15:15:20] [Server thread/INFO]: Piskabobra_282 issued server command: /tp Piskabobra_282 Wodjess
+[15:15:20] [Server thread/INFO]: [Piskabobra_282: Teleported Piskabobra_282 to Wodjess]
+[15:16:40] [Server thread/INFO]: Wodjess lost connection: Disconnected
+[15:16:40] [Server thread/INFO]: Wodjess left the game
+[15:16:40] [Server thread/INFO]: Piskabobra_282 lost connection: Disconnected
+[15:16:40] [Server thread/INFO]: Piskabobra_282 left the game
