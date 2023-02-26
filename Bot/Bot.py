@@ -19,9 +19,9 @@ UserContext = [['',' ']]
 
 load_dotenv()
 print("Введите ключ Telegram")
-TELEGRAM_TOKEN = str("5835481984:AAG9sHOQaO4mgl0WEu-I2uqZ7Rg8bs0kLOs")
+TELEGRAM_TOKEN = str(input())
 print("Введите ключ OpenAI: ")
-openai.api_key = "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"
+openai.api_key = input()
 
 bot = Bot(token=TELEGRAM_TOKEN)  # Объект бота
 dp = Dispatcher(bot)  # Диспетчер для бота
