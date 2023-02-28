@@ -35,7 +35,7 @@ logging.basicConfig(
     level=logging.INFO,
     filename="bot.log",
 )
-def ChatGPT(Message, maxTokens = 650):
+def ChatGPT(Message, maxTokens = 680):
     theanswer = openai.Completion.create(
                  model="text-davinci-003",
                  prompt= Message,
@@ -94,9 +94,8 @@ async def cmd_text(message: types.Message):
     ]
 )
 async def voice_message_handler(message: types.Message):
-
-
   try:
+    global botname
     if message.content_type == types.ContentType.VOICE:
         file_id = message.voice.file_id
     elif message.content_type == types.ContentType.AUDIO:
@@ -141,8 +140,7 @@ async def voice_message_handler(message: types.Message):
     Answer = ChatGPT(UserContext[ListId][1])
     UserContext[ListId][1] += Answer
     out_filename = tts.text_to_ogg(Answer)
-    print(UserContext[ListId][1])
-    print("\n\n[" + user_name + "]: " + text + " [" + botname + "]: " + Answer)
+    print("\n\n(Аудио) [" + user_name + "]: " + text + " [" + botname + "]: " + Answer)
     # Отправка голосового сообщения
     path = Path("", out_filename)
     voice = InputFile(path)
