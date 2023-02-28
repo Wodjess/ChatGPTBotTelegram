@@ -20,8 +20,10 @@ UserContext = [['',' ']]
 load_dotenv()
 print("Введите ключ Telegram")
 TELEGRAM_TOKEN = str(input())
-print("Введите ключ OpenAI: ")
+print("Введите ключ OpenAI ")
 openai.api_key = input()
+print("Напишите имя бота")
+botname = input()
 
 bot = Bot(token=TELEGRAM_TOKEN)  # Объект бота
 dp = Dispatcher(bot)  # Диспетчер для бота
@@ -56,29 +58,33 @@ async def cmd_start(message: types.Message):
 @dp.message_handler(content_types=[types.ContentType.TEXT])
 async def cmd_text(message: types.Message):
     global UserContext
-    FoundUser = False
-    ListId = 0
-    user_name = message.from_user.first_name
-    user_id = message.from_user.id 
-    for i in range(len(UserContext)):
-                            if str(user_id) == UserContext[i][0]:
-                                UserContext[i][1] += str(" [" + user_name + "]" + ': ' + message.text + " [ChatGPT]: ")
-                                ListId = i
-                                FoundUser = True
-                                while len(UserContext[i][1]) > 1850:
-                                    temptext = UserContext[i][1]
-                                    for i2 in range(len(temptext)):
-                                            if temptext[i2] == '[':
-                                                UserContext[i][1] = temptext[(i2 + 1):]
-                                                break 
-                                break
-    if FoundUser == False:
-                          ListId = len(UserContext)
-                          UserContext.insert(len(UserContext),[str(user_id), str(" [" + user_name + "]" + ': ' + message.text + " [ChatGPT]: ")])
-    Answer = ChatGPT(UserContext[ListId][1])
-    UserContext[ListId][1] += Answer
-    await message.reply(Answer)
-    print(UserContext[ListId][1])
+    global botname
+    if(len(message.text) > 1900):
+        await message.reply("Ваше сообщение должно быть менее 1900 символов!")
+    else:
+        FoundUser = False
+        ListId = 0
+        user_name = message.from_user.first_name
+        user_id = message.from_user.id 
+        for i in range(len(UserContext)):
+                                if str(user_id) == UserContext[i][0]:
+                                    UserContext[i][1] += str(" [" + user_name + "]" + ': ' + message.text + " [" + botname +"]: ")
+                                    ListId = i
+                                    FoundUser = True
+                                    while len(UserContext[i][1]) > 1950:
+                                        temptext = UserContext[i][1]
+                                        for i2 in range(len(temptext)):
+                                                if temptext[i2] == '[':
+                                                    UserContext[i][1] = temptext[(i2 + 1):]
+                                                    break 
+                                    break
+        if FoundUser == False:
+                              ListId = len(UserContext)
+                              UserContext.insert(len(UserContext),[str(user_id), str(" [" + user_name + "]" + ': ' + message.text + " [" + botname +"]: ")])
+        Answer = ChatGPT(UserContext[ListId][1])
+        UserContext[ListId][1] += Answer
+        await message.reply(Answer)
+        print("\n\n[" + user_name + "]: " + message.text + " [" + botname + "]: " + Answer)
 
 
 @dp.message_handler(content_types=[
@@ -117,10 +123,10 @@ async def voice_message_handler(message: types.Message):
     user_id = message.from_user.id 
     for i in range(len(UserContext)):
                             if str(user_id) == UserContext[i][0]:
-                                UserContext[i][1] += str(" [" + user_name + "]" + ': ' + text + " [ChatGPT]: ")
+                                UserContext[i][1] += str(" [" + user_name + "]" + ': ' + text + " [" + botname +"]: ")
                                 ListId = i
                                 FoundUser = True
-                                while len(UserContext[i][1]) > 1850:
+                                while len(UserContext[i][1]) > 1950:
                                     temptext = UserContext[i][1]
                                     for i2 in range(len(temptext)):
                                             if temptext[i2] == '[':
@@ -129,13 +135,14 @@ async def voice_message_handler(message: types.Message):
                                 break
     if FoundUser == False:
                           ListId = len(UserContext)
-                          UserContext.insert(len(UserContext),[str(user_id), str(" [" + user_name + "]" + ': ' + text + " [ChatGPT]: ")])
+                          UserContext.insert(len(UserContext),[str(user_id), str(" [" + user_name + "]" + ': ' + text + " [" + botname +"]: ")])
 
 
     Answer = ChatGPT(UserContext[ListId][1])
     UserContext[ListId][1] += Answer
     out_filename = tts.text_to_ogg(Answer)
     print(UserContext[ListId][1])
+    print("\n\n[" + user_name + "]: " + text + " [" + botname + "]: " + Answer)
     # Отправка голосового сообщения
     path = Path("", out_filename)
     voice = InputFile(path)
@@ -152,8 +159,9 @@ async def voice_message_handler(message: types.Message):
 
 if __name__ == "__main__":
     # Запуск бота
-    print("Запуск бота")
     try:
+        print("Бот запущен!")
         executor.start_polling(dp, skip_updates=True)
+        
     except (KeyboardInterrupt, SystemExit):
         pass
